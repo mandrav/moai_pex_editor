@@ -1,0 +1,36 @@
+<particleEmitterConfig>
+<texture name="cloudlet.png" />
+<maxParticles value="40" />
+<particleLifeSpan value="0.5500" />
+<particleLifeSpanVariance value="0.0000" />
+<startParticleSize value="60.00" />
+<startParticleSizeVariance value="50.00" />
+<finishParticleSize value="80.00" />
+<FinishParticleSizeVariance value="0.00" />
+<angle value="360.00" />
+<angleVariance value="360.00" />
+<rotationStart value="0.00" />
+<rotationStartVariance value="50.00" />
+<rotationEnd value="0.00" />
+<rotationEndVariance value="70.00" />
+<sourcePositionVariance x="0.00" y="-0.00" />
+<speed value="30.00" />
+<speedVariance value="0.00" />
+<gravity x="440" y="0.00" />
+<tangentialAcceleration value="0.00" />
+<tangentialAccelVariance value="0.00" />
+<radialAcceleration value="0.00" />
+<radialAccelVariance value="0.00" />
+<maxRadius value="100.00" />
+<maxRadiusVariance value="0.00" />
+<minRadius value="0.00" />
+<rotatePerSecond value="0.00" />
+<rotatePerSecondVariance value="0.00" />
+<startColor red="1.00" green="0.50" blue="0.20" alpha="1.00" />
+<startColorVariance red="0.00" green="0.00" blue="0.00" alpha="0.50" />
+<finishColor red="0.30" green="0.10" blue="0.10" alpha="0.40" />
+<finishColorVariance red="0.00" green="0.00" blue="0.00" alpha="0.00" />
+<emitterType value="0" />
+<blendFuncSource value="770" />
+<blendFuncDestination value="1" />
+</particleEmitterConfig>
