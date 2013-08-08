@@ -638,14 +638,18 @@ function onCreate(params)
 end
 
 function onStart()
-    debughelper.attach(scene)
+    if APP_DEBUG then
+        debughelper.attach(scene)
+    end
 
 -- 	load("particles/deathBlossomCharge.pex")
 --     selectBgColor()
 end
 
 function onStop()
-    debughelper.detach()
+    if APP_DEBUG then
+        debughelper.detach()
+    end
 end
 
 function loadPS()

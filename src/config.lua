@@ -2,7 +2,7 @@
 -- global "constants"
 -------------------------------------------------------------------------------
 APP_NAME = "PEX Editor"
-APP_DEBUG = true
+APP_DEBUG = false
 APP_LOG = "pex_editor.log"
 APP_VERSION = "0.1"
 

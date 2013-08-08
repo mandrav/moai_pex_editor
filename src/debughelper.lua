@@ -37,6 +37,8 @@ function detach()
 end
 
 local function _log( color, ... )
+    if not view then return end
+    
 	local str = ""
     local args = {...}
     
